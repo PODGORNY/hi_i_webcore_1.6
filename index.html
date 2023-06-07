@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+  <title>1.6</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+<link href="style.css" rel="stylesheet"></head>
+
+<body>
+
+  <nav class="page">
+    <div class="page__navigate">
+      <div class="page__navigate-header">
+
+        <div class="btn-circle btnclose-menu navFX">
+          <img class="btn-circle__img" src="./img/burger-end-icon.png" alt="menu">
+        </div>
+        <img class="btn btnicon-page navFX" src="./img/CPS.png" alt="icon-page">
+        <div class="btn-circle btnsearch navFX">
+          <img class="btn-circle__img" src="./img/search-icon.png" alt="search">
+        </div>
+
+      </div>
+      
+      <div class="page__navigate-selection">
+        <ul class="page__navi navi-title">
+          <div class="navi-container">
+            <div class="navi-label"></div>
+            <li class="btn navi-btn btn-rem glideFX active">Ремонт техники</li>
+          </div>
+
+          <li class="btn navi-btn glideFX">Услуги и сервисы</li>
+          <li class="btn navi-btn glideFX">Корпоративным клиентам
+          </li><li class="btn navi-btn glideFX">Продавцам техники</li>
+          <li class="btn navi-btn glideFX">Партнерам</li>
+          <li class="btn navi-btn glideFX">Производителям</li>
+          <li class="btn navi-btn glideFX">Наши сервисные центры</li>
+          <li class="btn navi-btn glideFX">Контакты</li>
+        </ul>
+      </div>
+
+      <div class="page__navigate-footer">
+        <div class="btn-contact">
+          <div class="btn-circle btn-call navFX">
+            <img class="btn-circle__img" src="./img/call2-icon.png" alt="call">
+          </div>
+          <div class="btn-circle btn-message navFX">
+            <img class="btn-circle__img" src="./img/chat2-icon.png" alt="message">
+          </div>
+          <div class="btn-circle btn-people navFX">
+            <img class="btn-circle__img" src="./img/profile2-icon.png" alt="people">
+          </div>
+        </div>
+        <div class="glideFX"><a class="mail-title" href="mailto:mail@cps.com">mail@cps.com</a></div>
+        <div class="glideFX"><a class="number-title" href="tel:8 800 890 8900">8 800 890 8900</a></div>
+
+
+        <div class="page__language-page">
+          <button class="btn btn-ru navFX active">RU</button>
+          <button class="btn btn-en navFX">EN</button>
+          <button class="btn btn-ch navFX">CH</button>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <nav class="page-feedback">
+    <header class="page-feedback__header">
+
+      <div class="btn-circle btnclose-menu__feedback navFX">
+        <img class="btn-circle__img" src="./img/burger-end-icon.png" alt="menu">
+      </div>
+
+      <div class="mainpost_post-title">
+        <div class="feedback__img"></div>
+        <h1 class="feedback__title feedback-title__otstyp">
+          Обратная связь
+        </h1>
+      </div>
+
+    </header>
+
+    <section class="page-feedback__select">
+      <form action="">
+        <input type="text" name="name" autocomplete="on" placeholder="Имя" required>
+        <input type="tel" name="tel" autocomplete="on" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Телефон" required>
+        <input type="email" name="email" autocomplete="on" placeholder="Электронная почта" required>
+        <textarea name="message" placeholder="Сообщение"></textarea>
+      </form>
+
+    </section>
+
+    <footer class="page-feedback__footer">
+      <h3 class="footer-page__title">
+        Нажимая “отправить”,
+        вы даете согласие на <span class="title-pink">обработку персональных данных</span>
+        и соглашаетесь с нашей <span class="title-pink">политикой конфиденциальности</span>
+      </h3>
+
+      <div class="btn-pay btn-pay_otstyp btn-output_size">
+        <img class="btn-pay__img" src="./img/output.png" alt="output">
+        <img class="btn-pay__img" src="/src/img/paydown.png" alt="output-down">
+      </div>
+    </footer>
+  </nav>
+
+  <nav class="page-call">
+    <header class="page-call__header">
+
+      <div class="btn-circle btnclose-menu__call navFX">
+        <img class="btn-circle__img" src="./img/burger-end-icon.png" alt="menu">
+      </div>
+
+      <div class="mainpost_post-title">
+        <div class="call__img"></div>
+        <h1 class="call__title call-title__otstyp">
+          Заказать звонок
+        </h1>
+      </div>
+
+    </header>
+
+    <section class="page-call__select">
+      <form action="">
+        <input type="tel" name="tel" autocomplete="on" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Телефон" required>
+      </form>
+
+    </section>
+
+    <footer class="page-call__footer">
+      <h3 class="footer-page__title">
+        Нажимая “отправить”,
+        вы даете согласие на <span class="title-pink">обработку персональных данных</span>
+        и соглашаетесь с нашей <span class="title-pink">политикой конфиденциальности</span>
+      </h3>
+
+      <div class="btn-pay btn-pay_otstyp btn-output_size">
+        <img class="btn-pay__img" src="./img/output.png" alt="output">
+        <img class="btn-pay__img" src="/src/img/paydown.png" alt="output-down">
+      </div>
+    </footer>
+  </nav>
+
+  <div class="pageStart">
+    <header class="header">
+      <nav class="header__navigation-menu hd_resolution">
+        <img class="header__button-navmenu header__button-menu hover-button-fx" src="./img/burger.png" alt="Меню">
+        <img class="header__button-navmenu header__dividerOne md_resolution" src="./img/divider.png" alt="разделитель1">
+        <img class="header__button-navmenu header__button-CPS hover-button-fx" src="./img/CPS.png" alt="Знак компании">
+        <div class="md_resolution">
+          <img class="header__button-navmenu header__button-call hover-button-fx" src="./img/call2.png" alt="Звонок">
+          <img class="header__button-navmenu header__button-message hover-button-fx" src="./img/chat2.png" alt="Сообщения">
+          <img class="header__button-navmenu header__button-kontakt hover-button-fx" src="./img/profile2.png" alt="Контакт">
+        </div>
+        <img class="header__dividerTwo" src="./img/divider2.png" alt="разделитель">
+        <img class="header__button-navmenu header__button-setting hover-button-fx" src="./img/setting.png" alt="Настройки">
+        <img class="header__button-navmenu header__button-search hover-button-fx" src="./img/checkstatus.png" alt="Поиск">
+      </nav>
+    </header>
+
+    <main>
+      <article class="mainpost">
+        <section class="mainpost_panel">
+          <div class="mainpost_post-title">
+            <div class="post-title_img"></div>
+            <h1 class="post-title_title">
+              Услуги и сервисы
+            </h1>
+          </div>
+          <div class="post-title_containersetting hover-button-fx notmd-resolution">
+            <img class="containersetting_img" src="./img/setting.png" alt="Настройки">
+            <h3 class="containersetting_title">
+              Оставить заявку
+            </h3>
+          </div>
+
+          <div class="post-title_containersearch hover-button-fx notmd-resolution">
+            <img class="containersearch_img" src="./img/checkstatus.png" alt="Поиск">
+            <h3 class="containersearch_title">
+              Статус ремонта
+            </h3>
+          </div>
+        </section>
+
+        <nav class="mainpost_nav-menu">
+          <section class="nav-menu_title notscrollvision">
+            <button class="slide slidetitle slide-zero" autofocus>
+              <p class="slidemargin">
+                Ремонтируемые бренды
+              </p>
+            </button>
+            <button class="slide slidetitle slide-one">
+              <p class="slidemargin">
+                Ремонтируемые устройства
+              </p>
+            </button>
+            <button class="slide slidetitle slide-two">
+              <p class="slidemargin">
+                Дополнительные услуги
+              </p>
+            </button>
+            <button class="slide slidetitle slide-three">
+              <p class="slidemargin">
+                Цены на услуги
+              </p>
+            </button>
+            <button class="slide slidetitle slide-for">
+              <p class="slidemargin">
+                Специальные цены
+              </p>
+            </button>
+            <button class="slide slidetitle slide-five">
+              <p class="slidemargin">
+                Адреса сервисных центров
+              </p>
+            </button>
+            <button class="slide slidetitle slide-six">
+              <p class="slidemargin">
+                Отзывы
+              </p>
+            </button>
+          </section>
+        </nav>
+
+        <div class="mainpost_present-company">
+          <div class="container_p-button">
+            <p class="mainpost_paragraf">
+              Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+              отремонтировать
+              свой ноутбук Dell с официальной гарантией производителя.<br><br>
+
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое
+              количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь,
+              советуют нас родным и близким.
+            </p>
+            <section class="mainpost_buttonRead">
+              <div class="mainpost_buttonRead-container hover-button-fx">
+                <img class="buttonRead_icon hover-button-fx" src="./img/expand.png" alt="ярлык кнопки2">
+                <h3 class="buttonRead_title hover-button-fx">
+                  Читать далее
+                </h3>
+              </div>
+            </section>
+          </div>
+          <img class="mainpost_image" src="./img/3223.png" alt="картинка">
+        </div>
+      </article>
+
+      <article class="glide__panels">
+
+        
+        <section class="glide-panel">
+
+          <header class="glide-panel__header">
+            <div class="glide-panel__header-title">Ремонт техники различных брендов</div>
+          </header>
+
+          <nav class="glide-panel__container swiper-container" data-mobile="false">
+            <div class="decorative-hidden decorative-hidden_size"></div>
+
+            <div class="glide-label swiper-wrapper">
+              <button class="glide-label__container swiper-slide">
+                <img class="glide-label__img" src="img/lenovo.png" alt="lenovo">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide">
+                <img class="glide-label__img" src="img/samsung.png" alt="samsung">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide">
+                <img class="glide-label__img" src="img/apple.png" alt="apple">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide">
+                <img class="glide-label__img" src="img/bosch.png" alt="bosch">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide">
+                <img class="glide-label__img" src="img/hp.png" alt="hp">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide">
+                <img class="glide-label__img" src="img/acer.png" alt="acer">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide label la hide">
+                <img class="glide-label__img" src="img/viewsonic.png" alt="viewsonic">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide label la hide">
+                <img class="glide-label__img" src="img/sony.png" alt="sony">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide label labelFull hide">
+                <img class="glide-label__img" src="img/samsung.png" alt="samsung">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide label labelFull hide">
+                <img class="glide-label__img" src="img/apple.png" alt="apple">
+                <img src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container swiper-slide label labelFull hide">
+                <img class="glide-label__img" src="img/bosch.png" alt="bosch">
+                <img src="img/go.png" alt="go">
+              </button>
+            </div>
+          </nav>
+
+          <footer class="glide-panel__footer footer-otstyp">
+            <div class="swiper-pagination"></div>
+
+            <button class="buttonOpen">
+              <img class="buttonOpen__img" src="./img/vision.png" alt="spisok">
+              <div class="buttonOpen__title" id="title">Показать все</div>
+            </button>
+          </footer>
+
+        </section>
+
+        
+        <section class="glide-panel">
+
+          <header class="glide-panel__header">
+            <div class="glide-panel__header-title">Ремонт различных видов техники</div>
+          </header>
+
+          <nav class="glide-panel__container2 swiper-container" data-mobile="false">
+            <div class="decorative-hidden decorative-hidden_size2"></div>
+
+            <div class="glide-label swiper-wrapper">
+              <button class="glide-label__container2 swiper-slide">
+                <h3 class="glide-label__title2">Ремонт ноутбуков</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide">
+                <h3 class="glide-label__title2">Ремонт планшетов</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide">
+                <h3 class="glide-label__title2">Ремонт ПК</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide label2 hide la">
+                <h3 class="glide-label__title2">Ремонт мониторов</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide label2 labelFull2 hide">
+                <h3 class="glide-label__title2">Ремонт телефонов</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide label2 labelFull2 hide">
+                <h3 class="glide-label__title2">Ремонт тракторов</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide label2 labelFull2 hide">
+                <h3 class="glide-label__title2">Ремонт R2D2</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide label2 labelFull2 hide">
+                <h3 class="glide-label__title2">Ремонт логики</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide label2 labelFull2 hide">
+                <h3 class="glide-label__title2">Ремонт ремонта</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide label2 labelFull2 hide">
+                <h3 class="glide-label__title2">Ремонт санузлов</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+
+              <button class="glide-label__container2 swiper-slide label2 labelFull2 hide">
+                <h3 class="glide-label__title2">Ремонт улыбок</h3>
+                <img class="glide-label__img2" src="img/go.png" alt="go">
+              </button>
+            </div>
+          </nav>
+
+          <footer class="glide-panel__footer footer-otstyp">
+            <div class="swiper-pagination2"></div>
+
+            <button class="buttonOpen2">
+              <img class="buttonOpen2__img" src="./img/vision.png" alt="spisok">
+              <div class="buttonOpen2__title" id="title2">Показать все</div>
+            </button>
+          </footer>
+
+        </section>
+
+        
+        <section class="glide-panel">
+
+          <header class="glide-panel__header">
+            <div class="glide-panel__header-title">Цены на услуги</div>
+          </header>
+
+          <nav class="glide-panel__container3 swiper-container" data-mobile="false">
+            <div class="decorative-hidden decorative-hidden_size3"></div>
+
+            <div class="glide-label swiper-wrapper">
+
+              <button class="glide-label__container3 swiper-slide">
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Ремонтные услуги</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">Тестирование с выдачей технического
+                  заключения
+                </h3>
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Цена</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">Бесплатно</h3>
+
+                <div class="btn-flex">
+                  <div class="contain">
+                    <h3 class="glide-label__first-title glide-label__first-title-otstyp">Срок</h3>
+                    <h3 class="glide-label__title3 glide-label__title3-otstyp">30-120 мин</h3>
+                  </div>
+
+                  <div class="btn-pay btn-pay_size">
+                    <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                    <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                  </div>
+                </div>
+              </button>
+
+              <button class="glide-label__container3 swiper-slide">
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Ремонтные услуги</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">Диагностика</h3>
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Цена</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">Бесплатно</h3>
+
+                <div class="btn-flex">
+                  <div class="contain">
+                    <h3 class="glide-label__first-title glide-label__first-title-otstyp">Срок</h3>
+                    <h3 class="glide-label__title3 glide-label__title3-otstyp">30 мин</h3>
+                  </div>
+
+                  <div class="btn-pay btn-pay_size">
+                    <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                    <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                  </div>
+                </div>
+              </button>
+
+              <button class="glide-label__container3 swiper-slide">
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Ремонтные услуги</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">Замена дисплея</h3>
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Цена</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">1000 ₽</h3>
+
+                <div class="btn-flex">
+                  <div class="contain">
+                    <h3 class="glide-label__first-title glide-label__first-title-otstyp">Срок</h3>
+                    <h3 class="glide-label__title3 glide-label__title3-otstyp">30-120 мин</h3>
+                  </div>
+
+                  <div class="btn-pay btn-pay_size">
+                    <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                    <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                  </div>
+                </div>
+              </button>
+
+              <button class="glide-label__container3 swiper-slide">
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Ремонтные услуги</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">Замена полифонического динамика</h3>
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Цена</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">1000 ₽</h3>
+
+                <div class="btn-flex">
+                  <div class="contain">
+                    <h3 class="glide-label__first-title glide-label__first-title-otstyp">Срок</h3>
+                    <h3 class="glide-label__title3 glide-label__title3-otstyp">30-120 мин</h3>
+                  </div>
+
+                  <div class="btn-pay btn-pay_size">
+                    <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                    <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                  </div>
+                </div>
+              </button>
+
+              <button class="glide-label__container3 swiper-slide">
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Ремонтные услуги</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">Замена програмного обеспечения</h3>
+                <h3 class="glide-label__first-title glide-label__first-title-otstyp">Цена</h3>
+                <h3 class="glide-label__title3 glide-label__title3-otstyp">1000 ₽</h3>
+
+                <div class="btn-flex">
+                  <div class="contain">
+                    <h3 class="glide-label__first-title glide-label__first-title-otstyp">Срок</h3>
+                    <h3 class="glide-label__title3 glide-label__title3-otstyp">30-120 мин</h3>
+                  </div>
+
+                  <div class="btn-pay btn-pay_size">
+                    <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                    <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                  </div>
+                </div>
+              </button>
+
+            </div>
+          </nav>
+
+          <footer class="glide-panel__footer">
+            <div class="swiper-pagination3"></div>
+          </footer>
+
+          
+          <section class="flex-price">
+            <div class="table-maintitle">
+              <h3 class="table-maintitle__title1 glide-label__first-title">Ремонтные услуги</h3>
+              <h3 class="table-maintitle__title2 glide-label__first-title">Цена</h3>
+              <h3 class="table-maintitle__title3 glide-label__first-title">Срок</h3>
+            </div>
+
+            <div class="table-fon">
+              <div class="table-title">
+                <h3 class="table-title__title1 glide-label__title3">Диагностика</h3>
+                <h3 class="table-title__title2 glide-label__title3">Бесплатно</h3>
+                <h3 class="table-title__title3 glide-label__title3">30 мин</h3>
+
+                <div class="btn-pay btn-pay_size">
+                  <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                  <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                </div>
+              </div>
+              <div class="table-divider"></div>
+
+              <div class="table-title">
+                <h3 class="table-title__title1 glide-label__title3">Замена дисплея</h3>
+                <h3 class="table-title__title4 glide-label__title3">1000 ₽</h3>
+                <h3 class="table-title__title5 glide-label__title3">30-120 мин</h3>
+
+                <div class="btn-pay btn-pay_size">
+                  <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                  <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                </div>
+              </div>
+              <div class="table-divider"></div>
+
+              <div class="table-title">
+                <h3 class="table-title__title1 glide-label__title3">Замена полифонического динамика</h3>
+                <h3 class="table-title__title4 glide-label__title3">1000 ₽</h3>
+                <h3 class="table-title__title5 glide-label__title3">30-120 мин</h3>
+
+                <div class="btn-pay btn-pay_size">
+                  <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                  <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                </div>
+              </div>
+              <div class="table-divider"></div>
+
+              <div class="table-title">
+                <h3 class="table-title__title1 glide-label__title3">Тестирование с выдачей технического заключения</h3>
+                <h3 class="table-title__title4 glide-label__title3">1000 ₽</h3>
+                <h3 class="table-title__title5 glide-label__title3">30-120 мин</h3>
+
+                <div class="btn-pay btn-pay_size">
+                  <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                  <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                </div>
+              </div>
+              <div class="table-divider"></div>
+
+              <div class="table-title">
+                <h3 class="table-title__title1 glide-label__title3">Замена програмного обеспечения</h3>
+                <h3 class="table-title__title4 glide-label__title3">1000 ₽</h3>
+                <h3 class="table-title__title5 glide-label__title3">30-120 мин</h3>
+
+                <div class="btn-pay btn-pay_size">
+                  <img class="btn-pay__img" src="/src/img/pay.png" alt="pay">
+                  <img class="btn-pay__img" src="/src/img/paydown.png" alt="paydown">
+                </div>
+              </div>
+
+            </div>
+
+
+          </section>
+
+        </section>
+
+      </article>
+
+      <section class="commerce-price">
+        <p class="commerce-price__paragraph">
+          Все цены указаны с учетом НДС.
+          Стоимость ремонта указана на единичную услугу.
+          Для получения коммерческого предложения на постоянное обслуживание,
+          оставьте заявку.
+        </p>
+
+        <button class="button-commerce">
+          <h3 class="button-commerce__title">Получить коммерческое предложение <img class="button-commerce__img" src="./img/pushmeCommerce.png" alt="pushme"></h3>
+        </button>
+
+      </section>
+    </main>
+
+    <footer>
+      <div class="decorative-line"></div>
+
+      <div class="footer-page">
+        <h3 class="footer-page__title footer-page__setleft">© 2019 CPS<br>Разработано командой Apesong</h3>
+        <h3 class="footer-page__title footer-page__setcenter">Политика конфиденциальности</h3>
+        <h3 class="footer-page__title footer-page__setright">Информация, размещенная на данной странице, не является
+          публичной офертой</h3>
+      </div>
+
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="./js/bundle.js"></script></body>
+
+</html>
