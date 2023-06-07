@@ -1,2 +1,2 @@
-# [webcore_1.6](https://podgorny.github.io/webcore_1.6/)
+# [webcore_1.6](https://podgorny.github.io/hi_i_webcore_1.6/)
 Отчаянье и потеря реальности сопровождает меня на этой части макета...надеюсь всё будет хорошо)
