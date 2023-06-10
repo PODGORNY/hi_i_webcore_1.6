@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -9,59 +9,49 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <link href="style.css" rel="stylesheet"></head>
 
-<body>
+<body class="body">
 
   <nav class="page">
     <div class="page__navigate">
       <div class="page__navigate-header">
 
-        <div class="btn-circle btnclose-menu navFX">
-          <img class="btn-circle__img" src="./img/burger-end-icon.png" alt="menu">
-        </div>
-        <img class="btn btnicon-page navFX" src="./img/CPS.png" alt="icon-page">
-        <div class="btn-circle btnsearch navFX">
-          <img class="btn-circle__img" src="./img/search-icon.png" alt="search">
-        </div>
+        <button class="btn-circle btnMenuClose_img btnclose-menu navFX_hoverPink"></button>
+        <img class="btn btnicon-page navFX_hoverPink" src="./img/CPS.png" alt="icon-page">
+        <button class="btn-circle btnSearch_img btnsearch navFX_hoverPink"></button>
 
       </div>
-      
+
       <div class="page__navigate-selection">
         <ul class="page__navi navi-title">
           <div class="navi-container">
             <div class="navi-label"></div>
-            <li class="btn navi-btn btn-rem glideFX active">Ремонт техники</li>
+            <li class="btn navi-btn btn-rem glideFX_hover active">Ремонт техники</li>
           </div>
 
-          <li class="btn navi-btn glideFX">Услуги и сервисы</li>
-          <li class="btn navi-btn glideFX">Корпоративным клиентам
-          </li><li class="btn navi-btn glideFX">Продавцам техники</li>
-          <li class="btn navi-btn glideFX">Партнерам</li>
-          <li class="btn navi-btn glideFX">Производителям</li>
-          <li class="btn navi-btn glideFX">Наши сервисные центры</li>
-          <li class="btn navi-btn glideFX">Контакты</li>
+          <li class="btn navi-btn glideFX_hover">Услуги и сервисы</li>
+          <li class="btn navi-btn glideFX_hover">Корпоративным клиентам
+          </li><li class="btn navi-btn glideFX_hover">Продавцам техники</li>
+          <li class="btn navi-btn glideFX_hover">Партнерам</li>
+          <li class="btn navi-btn glideFX_hover">Производителям</li>
+          <li class="btn navi-btn glideFX_hover">Наши сервисные центры</li>
+          <li class="btn navi-btn glideFX_hover">Контакты</li>
         </ul>
       </div>
 
       <div class="page__navigate-footer">
         <div class="btn-contact">
-          <div class="btn-circle btn-call navFX">
-            <img class="btn-circle__img" src="./img/call2-icon.png" alt="call">
-          </div>
-          <div class="btn-circle btn-message navFX">
-            <img class="btn-circle__img" src="./img/chat2-icon.png" alt="message">
-          </div>
-          <div class="btn-circle btn-people navFX">
-            <img class="btn-circle__img" src="./img/profile2-icon.png" alt="people">
-          </div>
+          <button class="btn-circle btnCall_img btn-call navFX_hoverPink"></button>
+          <button class="btn-circle btnMessage_img btn-message navFX_hoverPink"></button>
+          <button class="btn-circle btnKontakt_img btn-people navFX_hoverPink"></button>
         </div>
-        <div class="glideFX"><a class="mail-title" href="mailto:mail@cps.com">mail@cps.com</a></div>
-        <div class="glideFX"><a class="number-title" href="tel:8 800 890 8900">8 800 890 8900</a></div>
+        <div class="glideFX_hover"><a class="mail-title" href="mailto:mail@cps.com">mail@cps.com</a></div>
+        <div class="glideFX_hover"><a class="number-title" href="tel:8 800 890 8900">8 800 890 8900</a></div>
 
 
         <div class="page__language-page">
-          <button class="btn btn-ru navFX active">RU</button>
-          <button class="btn btn-en navFX">EN</button>
-          <button class="btn btn-ch navFX">CH</button>
+          <button class="btn btn-ru navFX_hoverPink active">RU</button>
+          <button class="btn btn-en navFX_hoverPink">EN</button>
+          <button class="btn btn-ch navFX_hoverPink">CH</button>
         </div>
       </div>
 
@@ -71,9 +61,7 @@
   <nav class="page-feedback">
     <header class="page-feedback__header">
 
-      <div class="btn-circle btnclose-menu__feedback navFX">
-        <img class="btn-circle__img" src="./img/burger-end-icon.png" alt="menu">
-      </div>
+      <button class="btn-circle btnMenuClose_img btnclose-menu__feedback navFX_hoverPink"></button>
 
       <div class="mainpost_post-title">
         <div class="feedback__img"></div>
@@ -101,19 +89,14 @@
         и соглашаетесь с нашей <span class="title-pink">политикой конфиденциальности</span>
       </h3>
 
-      <div class="btn-pay btn-pay_otstyp btn-output_size">
-        <img class="btn-pay__img" src="./img/output.png" alt="output">
-        <img class="btn-pay__img" src="./img/paydown.png" alt="output-down">
-      </div>
+      <div class="btn-pay btnOutput_img btnOutputStrela_img btn-pay_otstyp btn-output_size"></div>
     </footer>
   </nav>
 
   <nav class="page-call">
     <header class="page-call__header">
 
-      <div class="btn-circle btnclose-menu__call navFX">
-        <img class="btn-circle__img" src="./img/burger-end-icon.png" alt="menu">
-      </div>
+      <button class="btn-circle btnMenuClose_img btnclose-menu__call navFX_hoverPink"></button>
 
       <div class="mainpost_post-title">
         <div class="call__img"></div>
@@ -138,27 +121,25 @@
         и соглашаетесь с нашей <span class="title-pink">политикой конфиденциальности</span>
       </h3>
 
-      <div class="btn-pay btn-pay_otstyp btn-output_size">
-        <img class="btn-pay__img" src="./img/output.png" alt="output">
-        <img class="btn-pay__img" src="./img/paydown.png" alt="output-down">
-      </div>
+      <div class="btn-pay btnOutput_img btnOutputStrela_img btn-pay_otstyp btn-output_size"></div>
     </footer>
   </nav>
 
   <div class="pageStart">
     <header class="header">
       <nav class="header__navigation-menu hd_resolution">
-        <img class="header__button-navmenu header__button-menu hover-button-fx" src="./img/burger.png" alt="Меню">
-        <img class="header__button-navmenu header__dividerOne md_resolution" src="./img/divider.png" alt="разделитель1">
-        <img class="header__button-navmenu header__button-CPS hover-button-fx" src="./img/CPS.png" alt="Знак компании">
+        <button class="btn-circle btnMenu_img header__button-menu hover-button-fx"></button>
+        <img class="header__dividerOne md_resolution" src="./img/divider.png" alt="разделитель1">
+        <img class="header__button-CPS hover-button-fx" src="./img/CPS.png" alt="Знак компании">
         <div class="md_resolution">
-          <img class="header__button-navmenu header__button-call hover-button-fx" src="./img/call2.png" alt="Звонок">
-          <img class="header__button-navmenu header__button-message hover-button-fx" src="./img/chat2.png" alt="Сообщения">
-          <img class="header__button-navmenu header__button-kontakt hover-button-fx" src="./img/profile2.png" alt="Контакт">
+          <button class="btn-circle btnCall_img header__button-call hover-button-fx"></button>
+          <button class="btn-circle btnMessage_img header__button-message hover-button-fx"></button>
+          <button class="btn-circle btnKontakt_img header__button-kontakt hover-button-fx"></button>
         </div>
+
         <img class="header__dividerTwo" src="./img/divider2.png" alt="разделитель">
-        <img class="header__button-navmenu header__button-setting hover-button-fx" src="./img/setting.png" alt="Настройки">
-        <img class="header__button-navmenu header__button-search hover-button-fx" src="./img/checkstatus.png" alt="Поиск">
+        <button class="btn-circle btnSetting_img header__button-setting hover-button-fx"></button>
+        <button class="btn-circle btnSearchBook_img header__button-search hover-button-fx"></button>
       </nav>
     </header>
 
@@ -436,10 +417,7 @@
                     <h3 class="glide-label__title3 glide-label__title3-otstyp">30-120 мин</h3>
                   </div>
 
-                  <div class="btn-pay btn-pay_size">
-                    <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                    <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                  </div>
+                  <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
                 </div>
               </button>
 
@@ -455,10 +433,7 @@
                     <h3 class="glide-label__title3 glide-label__title3-otstyp">30 мин</h3>
                   </div>
 
-                  <div class="btn-pay btn-pay_size">
-                    <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                    <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                  </div>
+                  <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
                 </div>
               </button>
 
@@ -474,10 +449,7 @@
                     <h3 class="glide-label__title3 glide-label__title3-otstyp">30-120 мин</h3>
                   </div>
 
-                  <div class="btn-pay btn-pay_size">
-                    <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                    <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                  </div>
+                  <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
                 </div>
               </button>
 
@@ -493,10 +465,7 @@
                     <h3 class="glide-label__title3 glide-label__title3-otstyp">30-120 мин</h3>
                   </div>
 
-                  <div class="btn-pay btn-pay_size">
-                    <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                    <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                  </div>
+                  <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
                 </div>
               </button>
 
@@ -512,10 +481,7 @@
                     <h3 class="glide-label__title3 glide-label__title3-otstyp">30-120 мин</h3>
                   </div>
 
-                  <div class="btn-pay btn-pay_size">
-                    <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                    <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                  </div>
+                  <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
                 </div>
               </button>
 
@@ -540,10 +506,7 @@
                 <h3 class="table-title__title2 glide-label__title3">Бесплатно</h3>
                 <h3 class="table-title__title3 glide-label__title3">30 мин</h3>
 
-                <div class="btn-pay btn-pay_size">
-                  <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                  <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                </div>
+                <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
               </div>
               <div class="table-divider"></div>
 
@@ -552,10 +515,7 @@
                 <h3 class="table-title__title4 glide-label__title3">1000 ₽</h3>
                 <h3 class="table-title__title5 glide-label__title3">30-120 мин</h3>
 
-                <div class="btn-pay btn-pay_size">
-                  <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                  <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                </div>
+                <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
               </div>
               <div class="table-divider"></div>
 
@@ -564,10 +524,7 @@
                 <h3 class="table-title__title4 glide-label__title3">1000 ₽</h3>
                 <h3 class="table-title__title5 glide-label__title3">30-120 мин</h3>
 
-                <div class="btn-pay btn-pay_size">
-                  <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                  <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                </div>
+                <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
               </div>
               <div class="table-divider"></div>
 
@@ -576,10 +533,7 @@
                 <h3 class="table-title__title4 glide-label__title3">1000 ₽</h3>
                 <h3 class="table-title__title5 glide-label__title3">30-120 мин</h3>
 
-                <div class="btn-pay btn-pay_size">
-                  <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                  <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                </div>
+                <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
               </div>
               <div class="table-divider"></div>
 
@@ -588,10 +542,7 @@
                 <h3 class="table-title__title4 glide-label__title3">1000 ₽</h3>
                 <h3 class="table-title__title5 glide-label__title3">30-120 мин</h3>
 
-                <div class="btn-pay btn-pay_size">
-                  <img class="btn-pay__img" src="./img/pay.png" alt="pay">
-                  <img class="btn-pay__img" src="./img/paydown.png" alt="paydown">
-                </div>
+                <div class="btn-pay btnPay_img btnPayStrela_img btn-pay_size"></div>
               </div>
 
             </div>

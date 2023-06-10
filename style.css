@@ -35,9 +35,6 @@
   align-items: center;
   flex-shrink: 0; }
 
-.btn-circle__img {
-  margin: auto; }
-
 .btn {
   padding: 0;
   border: none;
@@ -47,6 +44,12 @@
   background-color: transparent;
   transition-duration: 2s; }
 
+.btnMenuClose_img {
+  padding: 0;
+  background-image: url(./static/burger-end-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px; }
+
 .btnclose-menu {
   margin-top: 24px;
   margin-left: 24px;
@@ -55,6 +58,12 @@
 .btnicon-page {
   margin-top: 23px;
   margin-right: 78px; }
+
+.btnSearch_img {
+  padding: 0;
+  background-image: url(./static/search-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px; }
 
 .btnsearch {
   margin-top: 24px;
@@ -298,7 +307,7 @@ li {
   box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); }
 
 /*-------------------------fx-----*/
-.navFX:hover {
+.navFX_hoverPink:hover {
   border-radius: 2px;
   background-color: #ff3e79;
   cursor: pointer; }
@@ -319,7 +328,7 @@ li {
     background-image: linear-gradient(to right, white, #cfcfcf 100%);
     opacity: 1; } }
 
-.glideFX:hover {
+.glideFX_hover:hover {
   -webkit-animation-name: borderglide;
           animation-name: borderglide;
   -webkit-animation-duration: 0s;
@@ -448,6 +457,21 @@ textarea {
 .title-pink {
   color: #FF3E79; }
 
+/*
+.btnPay_img {
+    padding: 0;
+    background-image: url("../img/output.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+.btnPayStrela_img {
+    padding: 0;
+    background-image: url("../img/paydown.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+*/
 .btn-pay_otstyp {
   margin-left: auto; }
 
@@ -647,6 +671,42 @@ input {
   .header__button-setting {
     margin-right: 16px; }
 
+.btnMenu_img {
+  padding: 0;
+  background-image: url(./static/burger-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px; }
+
+.btnCall_img {
+  padding: 0;
+  background-image: url(./static/call2-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px; }
+
+.btnMessage_img {
+  padding: 0;
+  background-image: url(./static/chat2-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px; }
+
+.btnKontakt_img {
+  padding: 0;
+  background-image: url(./static/profile2-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px; }
+
+.btnSetting_img {
+  padding: 0;
+  background-image: url(./static/setting-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px; }
+
+.btnSearchBook_img {
+  padding: 0;
+  background-image: url(./static/searchBook-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px; }
+
 .hover-button-fx:hover {
   border-radius: 6px;
   background-color: #eeeeee;
@@ -687,7 +747,7 @@ input {
     .header__button-search {
       margin-left: 16px; }
   .md_resolution {
-    display: block; } }
+    display: contents; } }
 
 /*---------------------1120---------------------------------------*/
 @media screen and (min-width: 1440px) {
@@ -1050,18 +1110,48 @@ input {
   white-space: nowrap; }
 
 .btn-pay {
-  display: flex;
+  position: relative;
   background-color: #ff3e79;
   border: 1px solid #ff3e79;
   border-radius: 60px 60px 60px 60px / 150% 150%;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0; }
+  flex-shrink: 0;
+  /*
+    &__img {
+        margin: auto;
+    }*/ }
   .btn-pay_size {
     width: 119px;
     height: 32px; }
-  .btn-pay__img {
-    margin: auto; }
+
+.btnPay_img {
+  padding: 0;
+  background-image: url(./static/pay.png);
+  background-repeat: no-repeat;
+  background-position: 13px 3px; }
+
+.btnPayStrela_img::before {
+  position: absolute;
+  top: 7px;
+  right: 13px;
+  padding: 0;
+  content: url(./static/paydown.png);
+  background-repeat: no-repeat; }
+
+.btnOutput_img {
+  padding: 0;
+  background-image: url(./static/output.png);
+  background-repeat: no-repeat;
+  background-position: 15px 10px; }
+
+.btnOutputStrela_img::before {
+  position: absolute;
+  top: 7px;
+  right: 13px;
+  padding: 0;
+  content: url(./static/paydown.png);
+  background-repeat: no-repeat; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .flex-price {
@@ -1608,7 +1698,7 @@ input {
     background: #D9FFF5; } }
 
 /*-------------------page----*/
-body {
+.body {
   margin: auto;
   padding: 0;
   background-color: #f8f8f8;
@@ -1616,6 +1706,9 @@ body {
   width: 100vw;
   height: 100vh;
   /*overflow: hidden; когда открыто левое меню - включить*/ }
+
+.body_overscroll {
+  overflow: hidden; }
 
 main {
   width: 100vw;
@@ -1631,13 +1724,13 @@ main {
           filter: blur(5px); }
 
 @media screen and (min-width: 1120px) and (max-width: 1439px) {
-  body {
+  .body {
     /*отцентровал страницу*/
     margin: auto;
     max-width: 1120px; } }
 
 @media screen and (min-width: 1440px) {
-  body {
+  .body {
     /*отцентровал страницу*/
     margin: auto;
     max-width: 1440px; }
