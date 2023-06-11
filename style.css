@@ -46,7 +46,7 @@
 
 .btnMenuClose_img {
   padding: 0;
-  background-image: url(./static/burger-end-icon.png);
+  background-image: url(./img/burger-end-icon.png);
   background-repeat: no-repeat;
   background-position: 10px 10px; }
 
@@ -61,7 +61,7 @@
 
 .btnSearch_img {
   padding: 0;
-  background-image: url(./static/search-icon.png);
+  background-image: url(./img/search-icon.png);
   background-repeat: no-repeat;
   background-position: 10px 10px; }
 
@@ -460,14 +460,14 @@ textarea {
 /*
 .btnPay_img {
     padding: 0;
-    background-image: url("../img/output.png");
+    background-image: url("./img/output.png");
     background-repeat: no-repeat;
     background-position: 10px 10px;
 }
 
 .btnPayStrela_img {
     padding: 0;
-    background-image: url("../img/paydown.png");
+    background-image: url("./img/paydown.png");
     background-repeat: no-repeat;
     background-position: 10px 10px;
 }
@@ -673,37 +673,37 @@ input {
 
 .btnMenu_img {
   padding: 0;
-  background-image: url(./static/burger-icon.png);
+  background-image: url(./img/burger-icon.png);
   background-repeat: no-repeat;
   background-position: 10px 10px; }
 
 .btnCall_img {
   padding: 0;
-  background-image: url(./static/call2-icon.png);
+  background-image: url(./img/call2-icon.png);
   background-repeat: no-repeat;
   background-position: 10px 10px; }
 
 .btnMessage_img {
   padding: 0;
-  background-image: url(./static/chat2-icon.png);
+  background-image: url(./img/chat2-icon.png);
   background-repeat: no-repeat;
   background-position: 10px 10px; }
 
 .btnKontakt_img {
   padding: 0;
-  background-image: url(./static/profile2-icon.png);
+  background-image: url(./img/profile2-icon.png);
   background-repeat: no-repeat;
   background-position: 10px 10px; }
 
 .btnSetting_img {
   padding: 0;
-  background-image: url(./static/setting-icon.png);
+  background-image: url(./img/setting-icon.png);
   background-repeat: no-repeat;
   background-position: 10px 10px; }
 
 .btnSearchBook_img {
   padding: 0;
-  background-image: url(./static/searchBook-icon.png);
+  background-image: url(./img/searchBook-icon.png);
   background-repeat: no-repeat;
   background-position: 10px 10px; }
 
@@ -1127,7 +1127,7 @@ input {
 
 .btnPay_img {
   padding: 0;
-  background-image: url(./static/pay.png);
+  background-image: url(./img/pay.png);
   background-repeat: no-repeat;
   background-position: 13px 3px; }
 
@@ -1136,12 +1136,12 @@ input {
   top: 7px;
   right: 13px;
   padding: 0;
-  content: url(./static/paydown.png);
+  content: url(./img/paydown.png);
   background-repeat: no-repeat; }
 
 .btnOutput_img {
   padding: 0;
-  background-image: url(./static/output.png);
+  background-image: url(./img/output.png);
   background-repeat: no-repeat;
   background-position: 15px 10px; }
 
@@ -1150,7 +1150,7 @@ input {
   top: 7px;
   right: 13px;
   padding: 0;
-  content: url(./static/paydown.png);
+  content: url(./img/paydown.png);
   background-repeat: no-repeat; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
